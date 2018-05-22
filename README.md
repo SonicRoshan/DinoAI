@@ -84,14 +84,14 @@ Version Alpha was trained on 10k frames recorded by human
 ## DinoAI Issues
 
 * The model jumps early when starting the game
-* The model jump slower as the game progresses
-* The model can handle birds
+* The model jumps late as the game progresses
+* The model can't handle birds
 
 
 ## Built With
 
-*[Tensorflow](https://www.tensorflow.org/) - The AI Framework
-*[TFlearn] (https://ww.tflearn.org/) - The Abstraction layer on top of tensorflow
+* [Tensorflow](https://www.tensorflow.org/) - The AI Framework
+* [TFlearn] (https://ww.tflearn.org/) - The Abstraction layer on top of tensorflow
 
 
 ## Contributing
