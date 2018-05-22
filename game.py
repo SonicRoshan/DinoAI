@@ -28,22 +28,30 @@ import direct_keys
 import time
 from selenium import webdriver
 import numpy as np
-from grabscreen import grabscreen
-
+from config import *
 
 class Game:
 
     def __init__(self):
 
     
-
-        self._driver = webdriver.Edge()
+        if BROWSER_TO_USE == "edge":
+            self._driver = webdriver.Edge()
+        elif BROWSER_TO_USE == "chrome":
+            self._driver = webdriver.Chrome()
+        elif BROWSER_TO_USE == "safari":
+            self._driver = webdriver.Safari()
+        else:
+            print("Invalid BROWSER_TO_USE. Using chrome")
+            self._driver = webdriver.Chrome()
+            
+            
 
         self._driver.set_window_position(x=-10,y=0)
 
         self._driver.set_window_size(800, 700)
 
-        self._driver.get(os.path.abspath("C:/Users/Roshan/Desktop/t-rex-runner-gh-pages/index.html"))
+        self._driver.get(os.path.abspath("t-rex-runner-gh-pages/index.html"))
 
         
 

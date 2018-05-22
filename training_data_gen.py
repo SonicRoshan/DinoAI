@@ -33,7 +33,9 @@ def create_training_data(agent):
     pause = True
     prev_paused = False
 
-    print("You can start")
+    print("""You can start by pressing UP KEY\n
+            Press P to pause\n
+            Press S to see the length of the data""")
 
     while start_recording:
         if keyboard.is_pressed("up"):
@@ -86,7 +88,7 @@ def create_training_data(agent):
                 pause = True
                 DINO_AGENT._game.pause()
                 prev_paused = True
-                print("paused")
+                print("paused. Press UP KEY to resume")
 
             if keyboard.is_pressed("s"):
                 #Shows the training data length
@@ -103,4 +105,4 @@ def create_training_data(agent):
                 pause = True
 
 if __name__ == '__main__':
-    create_training_data("user")
+    create_training_data(AGENT)
