@@ -103,4 +103,4 @@ def create_training_data(agent):
                 pause = True
 
 if __name__ == '__main__':
-    create_training_data("model")
+    create_training_data("user")
