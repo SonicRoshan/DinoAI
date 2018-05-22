@@ -30,7 +30,7 @@ The project itself dosen't come with pre-trained model or training data.
 If you want a pre-trained model and training data, get it from here (link coming soon...).
 First you will need to create training data.
 
-#### Steps To Create Training Data
+#### Steps To Setup DinoAI
 
 You can change value in config.py to you likings. Don't mess with settings you are not aware of
 
