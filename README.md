@@ -91,7 +91,7 @@ Version Alpha was trained on 10k frames recorded by human
 ## Built With
 
 * [Tensorflow](https://www.tensorflow.org/) - The AI Framework
-* [TFlearn] (https://ww.tflearn.org/) - The Abstraction layer on top of tensorflow
+* [TFlearn](https://ww.tflearn.org/) - The Abstraction layer on top of tensorflow
 
 
 ## Contributing

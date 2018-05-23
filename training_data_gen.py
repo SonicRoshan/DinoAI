@@ -8,7 +8,7 @@ import game
 #import DinoAI
 from config import *
 
-DINO_AGENT = game.DinoAgent(game.Game(speed_up=True))
+DINO_AGENT = game.DinoAgent(game.Game())
 
 def get_action_user():
     """Gets action pressed by the user"""

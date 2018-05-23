@@ -2,6 +2,9 @@
 __pycache__/
 Models/
 log/
+training_data/
+formatted_training_data/
+
 *.py[cod]
 *$py.class
 
