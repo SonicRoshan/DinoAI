@@ -3,6 +3,14 @@
 DinoAI Is An Artificial Intellgent Neural Network
 Which Can Play T-Rex Runner or Dino Runner Game
 
+
+# NOTICE
+**This is a dead project by now. I have no intention to work upon this as its not challenging anymore.\
+Whatever I could have done, I have already done.\
+Therefore, there is no active development on this project.\
+However, I will definetely in fututre work on project simiral to DinoAI but on a more complex game.\
+Peace Out.**
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
